@@ -36,6 +36,29 @@ szt = {k: v for (k, v) in slownik.items() if v == "szt."}
 print(szt)
 
 # zadanie 4
+
+# za pomocą if`ów
+# def czy_pr(A, B, C):
+#     if A > B and A > C:
+#         if B ** 2 + C**2 == A ** 2:
+#             print("jest prostokątny")
+#         else:
+#             print("nie jest prostokątny")
+#     if B > A and B > C:
+#         if A ** 2 + C**2 == B ** 2:
+#             print("jest prostokątny")
+#         else:
+#             print("nie jest prostokątny")
+#     if C > B and C > A:
+#         if B ** 2 + A**2 == C ** 2:
+#             print("jest prostokątny")
+#         else:
+#             print("nie jest prostokątny")
+#
+# czy_pr(5, 4, 3)
+# czy_pr(5, 3, 4)
+# czy_pr(5, 3, 3)
+
 print("-----------------zad_4----------------------")
 
 def czy_pr2(A, B, C):
