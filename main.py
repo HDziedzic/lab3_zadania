@@ -37,6 +37,7 @@ print(szt)
 
 # zadanie 4
 
+print("-----------------zad_4----------------------")
 # za pomocą if`ów
 # def czy_pr(A, B, C):
 #     if A > B and A > C:
@@ -58,9 +59,6 @@ print(szt)
 # czy_pr(5, 4, 3)
 # czy_pr(5, 3, 4)
 # czy_pr(5, 3, 3)
-
-print("-----------------zad_4----------------------")
-
 def czy_pr2(A, B, C):
     boki = [A, B, C]
     m = boki.index(max(A, B, C))
